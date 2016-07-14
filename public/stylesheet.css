@@ -40,4 +40,16 @@ nav{
     height: 650px;
 	background: url(/img/street.jpg) no-repeat center center scroll;
 	margin-top: 400px;
+	margin-bottom: 0px;
+}
+.box3{
+	width: 75%;
+	float: left;
+	margin: 0px;
+}
+.kid{
+	height: 25%;
+	width: 25%;
+	float: left;
+	margin: 2% 2% 0 0;
 }
