@@ -36,9 +36,6 @@ nav{
 	-moz-border-radius: 4px;
 	border-radius: 4px; 
 }
-.cont1{
-	background: blue;
-}
 .box1{
 	width: 40%;
 	float: left;
@@ -91,6 +88,16 @@ nav{
 	width: 135%;
 	height: 115%;
 	margin-left: 25%;
+}
+@media screen and (max-width: 600px) {
+  .hidediv {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
 }
 .footer{
 	background-color: #1a1a1a; 
